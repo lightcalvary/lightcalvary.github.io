@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Resume - Angelo Kim Hui Lim</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/resume.css">
+	<title>Home - Angelo Kim Hui</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-	<div>
-		<iframe class="resumeheader" src="assets/resumeheader.html" scrolling="no">
-		</iframe>
+	<video autoplay muted loop id="myVideo">
+		<source src="res/bgvid.mp4" type="video/mp4">
+	</video>
+	<div class="header">
+		<a href="#" class="logo">Angelo Kim Hui</a>
+		<div class="header-right">
+			<a target="iframemain" href="htmlsubroot/404.html">Home</a>
+			<a class="active" href="assets/resume.html" target="_blank">Resume</a>
+    		<a href="htmlsubroot/iframe.html" target="iframemain">Registration</a>
+    		<a href="assets/birthday.html" target="iframemain">Calendar</a>
+  		</div>
 	</div>
-	<div>
-		<iframe class="resumebody" src="assets/resumebody.html">
-		</iframe>
+	<div class="bodycenter">
+		<div id="iframecontainer">
+			<iframe id="frame" name="iframemain" src="htmlsubroot/404.html"></iframe>
+		</div>
 	</div>
+	<div class="footercenter">
+		<div class="music-left">
+			<audio controls autoplay>
+  				<source src="res/music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+			</audio>
+		</div>
+			<marquee>
+				<p class="musictitle" marquee> Avicii - Without You </p>
+			</marquee>
+	</div>
+		<p class="footertext">Copyright 2019, Angelo Kim Hui Lim</p>
 </body>
 </html>

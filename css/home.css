@@ -1,0 +1,160 @@
+body {
+	font-family: helvetica;
+}
+.header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  overflow: hidden;
+  background-color: #09ADBD;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #000000 ;
+  margin-top: -5px;
+  z-index: 3;
+  top: 0;
+  min-width: 600px;
+  border-radius: 5px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 5px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.header a.logo {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+.header a:hover {
+  background-color: #005F6C;
+  color: white;
+}
+
+.header a.active {
+  background-color: #005F6C;
+  color: white;
+}
+
+.music-right {
+  float: right;
+}
+
+
+.header-right {
+  margin-top: 5px;
+  float: right;
+  color: #dedede;
+  padding-left: 15px;
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+@media screen and (max-width: 870px) {
+  .header a {
+    float: inherit;
+    display: block;
+    text-align: left;
+  }
+  .header a.logo {
+    text-align: center;
+  }
+  .header-right {
+  	text-align: center;
+  	align-content: center;
+    float: none;
+    margin: auto;
+  }
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.bodycenter {
+  position: relative;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 20px;
+  background-color: #09ADBD;
+  z-index: 2;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 4px;
+  text-align: center;
+}
+.footertext {
+  color: white;
+  text-align: center;
+}
+iframe {
+  border: none;
+  height: 550px;
+  width: 100%;
+  border-radius: 20px;
+}
+.footercenter {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  padding-top: 10px;
+  max-width: 792px;
+  margin-top: 40px;
+  background-color: #09ADBD;
+  z-index: 2;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 4px;
+  text-align: center;
+}
+.footercenter p.musictitle {
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: bold;
+}
+marquee {
+	border: 2px solid black;
+	max-width: 700px;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.3);
+}
+button {
+  background-color: #09ADBD;
+  border: 3px solid black;
+}
+.iframecontainer {
+	color: white;
+	align-content: center;
+	text-align: center;
+	font-family: helvetica;
+}
+h1 {
+	font-family: helvetica;
+	color: black;
+	text-align: center;
+}
+label {
+	text-shadow: 2px 2px black;
+}
+hr {
+	color: black;
+	background-color: black;
+}
