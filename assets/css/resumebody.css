@@ -1,0 +1,68 @@
+/*Commented codes are for debugging purposes hahaha*/
+body {
+	position: relative;
+	margin: auto;
+	max-width: 1100px;
+}
+.main {
+	/*background-color: green;*/
+	position: absolute;
+	height: 260px;
+	width: 100%;
+	margin: -8px;
+	font-family: helvetica;
+	margin-top: 30px;
+	transition: margin-top 1s;
+}
+.main:hover {
+	margin-top: 10px;
+}
+
+.main2 {
+	position: absolute;
+	width: 100%;
+	margin: -8px;
+	margin-top: 370px;
+	/*background-color: red;*/
+}
+.profile {
+	/*background-color: blue;*/
+	margin-left: 85px;
+	width: 410px;
+	float: left;
+}
+.profiletitle {
+	font-size: 30px;
+	color: #E18955;
+}
+.profiletext {
+	font-size: 24px;
+	color: white;
+}
+.contact {
+	float: right;
+	width: 520px;
+	/*background-color: pink;*/
+	padding-left: 30px;
+	display: inline-block;
+}
+.contacttext {
+	color: white;
+	font-size: 24px;
+	vertical-align: middle;
+}
+.contactpng {
+	vertical-align: middle;
+}
+.statsimg {
+	height: 100%;
+	width: 100%;
+	transition: height 1s, width 1s, margin-left 1s, margin-top 2s;
+	margin-top: -50px;
+}
+.statsimg:hover {
+	height: 105%;
+	width: 105%;
+	margin-left: -23px;
+	margin-top: -50px;
+}
